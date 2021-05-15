@@ -28,6 +28,8 @@
     "@scullyio/ng-lib": "^1.0.0",
     "@scullyio/scully": "^1.0.0",
     "bootstrap": "^5.0.1",
+    "lottie-web": "^5.7.8",
+    "ngx-lottie": "^6.4.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"

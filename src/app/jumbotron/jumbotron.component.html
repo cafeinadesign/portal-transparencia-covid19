@@ -1,0 +1,52 @@
+<div style="background: #fefefe">
+  <div class="container">
+    <img
+      src="../assets/brasao-logo.png"
+      alt="Brasão Prefeitura de Pombos-PE"
+      height="96"
+      class="mt-4"
+      style="position: absolute"
+    />
+    <div class="row justify-content-start align-items-center">
+      <div class="col-8">
+        <h1
+          class="mat-display-2 mb-2"
+          style="line-height: 34px; font-weight: 700; color: #2d66b7"
+        >
+          <span style="font-size: 24px; font-weight: 500; color: black">
+            Portal da
+          </span>
+          <br />Transparência COVID-19
+        </h1>
+        <p class="mat-title mb-4" style="font-family: 'Roboto Condensed'">
+          A pandemia ainda não acabou!
+        </p>
+        <a
+          href="https://www.facebook.com/prefeituramunicipaldepombospe"
+          mat-button
+          mat-raised-button
+          color="primary"
+          aria-label="Boletim"
+          class="me-1"
+        >
+          Boletim
+          <mat-icon>open_in_new</mat-icon>
+        </a>
+        <a
+          href="https://www.facebook.com/prefeituramunicipaldepombospe"
+          mat-button
+          aria-label="Agende sua vacinação aqui"
+        >
+          Agendar vacinação
+          <mat-icon>open_in_new</mat-icon>
+        </a>
+      </div>
+      <div class="col-4">
+        <ng-lottie
+          [options]="options"
+          (animationCreated)="animationCreated($event)"
+        ></ng-lottie>
+      </div>
+    </div>
+  </div>
+</div>
