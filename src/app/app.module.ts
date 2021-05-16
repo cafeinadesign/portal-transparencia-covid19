@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
 
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
@@ -29,6 +31,8 @@ export function playerFactory() {
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
+    MatCardModule,
+    MatListModule,
     LottieModule.forRoot({ player: playerFactory }),
   ],
   providers: [],
