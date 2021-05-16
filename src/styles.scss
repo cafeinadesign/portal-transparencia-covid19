@@ -7,12 +7,77 @@
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
 @include mat.core();
-
+/* For use in src/lib/core/theming/_palette.scss */
+$spanish-blue: (
+  50: #e5eef5,
+  100: #bed5e5,
+  200: #93b9d4,
+  300: #689cc2,
+  400: #4787b5,
+  500: #2772a8,
+  600: #236aa0,
+  700: #1d5f97,
+  800: #17558d,
+  900: #0e427d,
+  A100: #aed1ff,
+  A200: #7bb4ff,
+  A400: #4897ff,
+  A700: #2f88ff,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #ffffff,
+  ),
+);
+/* For use in src/lib/core/theming/_palette.scss */
+$vivid-sky-blue: (
+  50: #e9f8fc,
+  100: #c7edf8,
+  200: #a2e2f4,
+  300: #7cd6ef,
+  400: #60cdeb,
+  500: #44c4e8,
+  600: #3ebee5,
+  700: #35b6e2,
+  800: #2dafde,
+  900: #1fa2d8,
+  A100: #ffffff,
+  A200: #dcf4ff,
+  A400: #a9e4ff,
+  A700: #90dcff,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #000000,
+    900: #000000,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$portal-transparencia-covid19-primary: mat.define-palette(mat.$indigo-palette);
-$portal-transparencia-covid19-accent: mat.define-palette(mat.$pink-palette);
+$portal-transparencia-covid19-primary: mat.define-palette($spanish-blue);
+$portal-transparencia-covid19-accent: mat.define-palette($vivid-sky-blue);
 
 // The warn palette is optional (defaults to red).
 $portal-transparencia-covid19-warn: mat.define-palette(mat.$red-palette);
