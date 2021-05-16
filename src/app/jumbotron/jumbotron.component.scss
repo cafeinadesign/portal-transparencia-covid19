@@ -1,0 +1,64 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+#brasao {
+  margin-top: 8px;
+  height: 96px;
+}
+h1.mat-display-3 {
+  color: #2772a8;
+  line-height: 30px;
+  font-size: 44px;
+  span {
+    color: #44c4e8;
+    font-size: 20px;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #brasao {
+    position: absolute;
+    top: 0;
+  }
+  h1.mat-display-3 {
+    line-height: 24px;
+    font-size: 32px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #brasao {
+    top: 36px;
+  }
+  h1.mat-display-3 {
+    line-height: 40px;
+    font-size: 44px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #brasao {
+    top: 64px;
+  }
+  h1.mat-display-3 {
+    font-size: 52px;
+    span {
+      font-size: 24px;
+    }
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  #brasao {
+    top: 96px;
+  }
+  h1.mat-display-3 {
+    color: #2772a8;
+  }
+}
