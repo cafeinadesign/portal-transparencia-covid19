@@ -10,9 +10,18 @@ nav a:hover {
 a.mat-list-item {
   color: white;
 }
-#transparencia {
+div {
   img {
     width: 52%;
     margin: 0 auto;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  div {
+    img {
+      width: 100%;
+    }
   }
 }
