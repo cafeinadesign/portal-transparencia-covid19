@@ -1,13 +1,10 @@
 small {
-  color: gray;
+  color: #ddd;
 }
 a {
   text-decoration: none;
 }
 nav a:hover {
-  color: white;
-}
-a.mat-list-item {
   color: white;
 }
 div {
@@ -19,7 +16,14 @@ div {
 mat-toolbar {
   margin-top: -72px;
 }
-
+#covid-19 {
+  background: url(../assets/../assets/virus-outline.svg) no-repeat right top;
+  background-size: 96px auto;
+}
+#vacinometro {
+  background: url(../assets/../assets/needle.svg) no-repeat right top;
+  background-size: 96px auto;
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   div {
